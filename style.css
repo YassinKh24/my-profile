@@ -1,0 +1,117 @@
+body { 
+    background: rgb(93, 93, 93);
+    color: rgb(250, 250, 250);
+    font-family: cursive;
+    text-align: center;
+ }
+
+img {
+  border: 10px solid #E0FFFF; 
+  border-radius: 50%;       
+  padding: 10px;             
+  display: block;
+  width: 160px;
+  display: block;
+  margin: 0 auto;       
+}
+
+ h1{ color: #A5D8FF;
+     font-family: sans-serif;
+     font-size: 45px;
+     font-weight: bolder;
+     letter-spacing: 7px;
+     text-shadow: 0 0 8px rgba(200, 150, 70, 0.3);
+ }
+
+ h2{ color: cyan;
+     font-size: 22px;
+     font-weight: bolder;
+ }
+
+ a { text-decoration: none;
+    color: mediumorchid;
+    font-size: 43px;
+    font-weight: bolder;
+    display: inline-block;
+    margin-bottom: 10px;
+
+ }
+ a:hover{
+    color: lightyellow;
+    text-decoration: underline;
+ }
+
+div {
+    background: rgb(62, 62, 62);
+    border: 5px solid #33CCCC; 
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 8px;
+    width: 50%;
+}
+
+div {
+  margin-bottom: 25px;  /* Adds space below each div */
+}
+
+div:last-child {
+  margin-bottom: 0;      /* Removes space from last div */
+}
+
+.list-inline{
+ list-style:  none;
+ padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px
+}
+
+.btn-blue {
+    background: #1A1A1A;
+    border: 5px solid darkorchid;
+    padding: 0px 5px;
+    border-radius: 10px;
+    color: darkorchid;
+}
+
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+  background-color: #3e1e3d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+    background-color: #0B0B45;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+.card-white {
+  background-color: rgb(62, 62, 62);
+  padding: 5px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  margin: 5px 5px;
+  text-align: center;
+}
+
+
+
+
+
+      
